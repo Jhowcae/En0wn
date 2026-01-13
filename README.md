@@ -39,7 +39,7 @@ This machine is designed for practicing:
 The VM is hosted externally due to file size limitations.
 
 🔗 **Download link (OneDrive):**  
-👉 https://onedrive.live.com/XXXXXXXX
+👉 https://1drv.ms/u/c/0d3c80175fe24837/IQB6335j2UkxQ7FXRW-k-tzvARrv4sUkM3NtLE-fi0TOLfA?e=beEJgi
 
 > Import the VM into **VirtualBox** or **VMware**.
 
